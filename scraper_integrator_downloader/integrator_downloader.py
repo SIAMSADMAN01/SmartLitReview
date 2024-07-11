@@ -16,10 +16,6 @@ import os
 from os import listdir
 from os.path import isfile, join
 from pypdf import PdfReader
-import tika
-tika.initVM()
-from tika import parser
-from tika import language
 import spacy
 from spacy.language import Language
 from spacy_language_detection import LanguageDetector
